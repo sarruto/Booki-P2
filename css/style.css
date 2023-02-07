@@ -1,0 +1,168 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.logoHeader{
+  width: 61px;
+  height: 19px;
+  top: 44px;
+  left: 55px;
+}
+.navHeader{
+  justify-content: space-between;
+  font-style: medium;
+  
+  
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family: 'Raleway';
+  font-style: medium;
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  
+  
+  }
+  
+
+
+.liste-menu1{
+  font-family: 'Raleway';
+  text-decoration: #0065fc;
+  font-size : 16px;
+  line-height: 19px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  padding: 50px ;
+  margin: :left;
+
+
+
+}
+.liste-menu2 {
+  font-family: 'Raleway';
+  text-decoration: red;
+  font-size : 16px;
+  line-height: 19px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+
+  
+  
+}
+
+
+
+  
+  p{
+    font-family: 'Raleway';
+    font-style: regular;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    color: black;
+  
+  }
+
+  
+
+.formulaires i {
+  
+  width: 50px;
+  height: 49px;
+  background: #f2f2f2;
+  border: 1px;
+  border: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+
+  }
+
+
+.iconeLocalisation{
+  width: 14px;
+  height: 18px;
+
+}
+
+.ville { 
+  
+  font-family: 'Raleway';
+  font-style: bold;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  color: black;
+  width: 147px;
+  height: 49px;
+  top: 14px;
+  left: 67px;
+  width: 332px;
+  border-color: #f2f2f2;
+  border: 1px;
+}
+
+.boutonRecherche {
+  font-family: 'Raleway';
+  font-style: bold;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  color: white;
+  width: 132px;
+  height: 49px;
+  top: 200px;
+  left: 341px;
+  padding: 15px 16px 15px 16px;
+  gap: 10px;
+  border-radius: 0px 15px 15px 0px;
+  border-color: #0065fc;
+  border:1px;
+  background: #0065fc;
+  
+  
+ 
+}
+
+.filtreBar{
+  padding: 20px;
+  font-family: 'Raleway';
+  font-style: bold;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 100%;
+ 
+  vertical-align: top;
+  color: black; 
+
+
+}
+
+
+
+
+
+
+
+ 
