@@ -205,3 +205,143 @@ p {
   border-radius: 20px 20px 0px 0px;
 }
 
+.containerPopulaire {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  border-radius: 20px 20px 20px 20px;
+  border: #f2f2f2 solid;
+  background-color: #f2f2f2;
+  margin: 20px 20px 20px 20px;
+  padding: 50px;
+}
+
+.titrePopulaire {
+  display: flex;
+}
+
+.groupCardsPopulaires {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 420px;
+  height: 625px;
+  border-radius: 20px 20px 20px 20px;
+  border: #f2f2f2 solid;
+  background-color: #f2f2f2;
+  justify-content: space-around;
+}
+
+.cardsPopulaires {
+  display: flex;
+  border-radius: 20px 20px 20px 20px;
+  padding: 5px 5px 5px 5px;
+  border-color: white;
+  background-color: white;
+}
+
+.imgPopulaire {
+  width: 137px;
+  height: 144px;
+  border-radius: 20px 0px 0px 20px;
+  border-color: white;
+  border: 5px;
+}
+
+.star {
+  margin: 0px;
+}
+
+h3 {
+  display: flex;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+}
+h5 {
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 100%;
+  text-align: left;
+  vertical-align: top;
+  color: black;
+}
+
+
+.groupCardsActivites {
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: space-around;
+}
+
+.cardsActivitesMarseille {
+
+  border-radius: 20px 20px 20px 20px;
+
+  background-color: white;
+  padding: 43px 43px 43px 43px;
+}
+
+.cardsActivitesInfos {
+  border: #f2f2f2;
+  margin: 20px;
+ 
+  border-radius: 0px 0px 20px 20px;
+}
+
+.imgActivites {
+  width: 302px;
+  height: 445px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.containerFooter {
+  display: flex;
+  gap: 300px;
+  padding-left: 70px;
+  margin:  50px;
+  padding-bottom: 58px;
+  background-color: #f2f2f2;
+  text-align: left;
+}
+/**.listeFooter{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+
+}**/
+.listeFooter h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 45px;
+ 
+ 
+}
+/**
+.listeFooter ul {
+  display: flex;
+  flex-direction: row;
+}
+**/
+.listeFooter li {
+  list-style: none;
+  
+}
