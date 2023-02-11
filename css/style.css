@@ -1,28 +1,47 @@
 * {
   font-family: "Raleway", sans-serif;
 }
+a{
+  color: black;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+}
 
 .headerContainer {
   display: flex;
   justify-content: space-between;
   text-decoration: none;
+  
 }
-.logoHeader {
+.logoHeader  img{
   width: 61px;
   height: 19px;
   top: 44px;
   left: 55px;
 }
-#navHeader {
+
+.navHeader {
   display: flex;
+}
+.listeNavHeader{
+  display: flex;
+  gap: 100px;
+  justify-content: space-evenly;
+ 
 }
 
-#menu {
-  display: flex;
-  list-style-type: none;
+
+
+
+.listeNav a{
+  
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
 }
+
 
 h1 {
   font-family: "Raleway";
@@ -32,7 +51,7 @@ h1 {
   line-height: 100%;
   text-align: left;
   vertical-align: top;
-  color: black;
+ 
 }
 
 p {
@@ -51,7 +70,7 @@ p {
   height: 49px;
   background: #f2f2f2;
   border: 1px solid;
-  border-color:#f2f2f2;
+  border-color: #f2f2f2;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -61,7 +80,7 @@ p {
 }
 
 .ville {
-  font-family: "Raleway";
+
 
   font-size: 18px;
   line-height: 21px;
@@ -74,12 +93,11 @@ p {
   top: 14px;
   left: 67px;
   width: 332px;
-
   border: 1px;
 }
 
 .boutonRecherche {
-  font-family: "Raleway";
+ 
 
   font-size: 18px;
   line-height: 21px;
@@ -96,7 +114,7 @@ p {
   border-radius: 0px 15px 15px 0px;
 
   border: 1px;
-  background: #0065fc;
+  background: #0065fc ;
 }
 
 .filtreBar {
@@ -110,8 +128,6 @@ p {
   vertical-align: top;
   color: black;
   justify-content: space-between;
-  
-  
 }
 
 .elementFiltreBarFiltre {
@@ -133,24 +149,25 @@ p {
   border-radius: 20px 20px 20px 20px;
   border: 1px solid;
   border-color: #d9d9d9;
-  padding: 5px 5px 5px 5px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
 }
 .elementFiltreBarDog {
   border-radius: 20px 20px 20px 20px;
   border: 1px solid;
   border-color: #d9d9d9;
   background-color: #deebff;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 }
 
-.fa-solid {
+.fa-solid{
   color: #0065fc;
 }
 
-.icone i{
+.icone i {
   border-radius: 2px;
   border: #f2f2f2;
-
+ 
 }
 .containerHebergementEtPo {
   display: flex;
@@ -162,18 +179,19 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 880px;
+ 
   height: 626px;
   border-radius: 20px 20px 20px 20px;
   border: #f2f2f2 solid;
   background-color: #f2f2f2;
   justify-content: space-around;
-  margin: 20px 20px 20px 20px;
-  
+  margin : 20px 20px 20px 20px;
 }
 
-.titreHebergement {
+.titreHebergement h2{
   display: flex;
+justify-content: flex-start;
+ 
 }
 
 .groupCardsHebergement {
@@ -204,11 +222,20 @@ p {
   height: 124px;
   border-radius: 20px 20px 0px 0px;
 }
+.cardsHebergememtInfos {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.titreAffichePlus{
+
+  
+}
 
 .containerPopulaire {
   display: flex;
   flex-direction: column;
-  width: 420px;
+ 
   border-radius: 20px 20px 20px 20px;
   border: #f2f2f2 solid;
   background-color: #f2f2f2;
@@ -230,7 +257,13 @@ p {
   border: #f2f2f2 solid;
   background-color: #f2f2f2;
   justify-content: space-around;
+
 }
+.cardsPopulairesInfos{
+  padding: 5px;;
+
+}
+
 
 .cardsPopulaires {
   display: flex;
@@ -280,16 +313,16 @@ h5 {
   color: black;
 }
 
-
 .groupCardsActivites {
   display: flex;
   flex-direction: row;
   border-radius: 20px 20px 20px 20px;
   justify-content: space-around;
+ 
+  
 }
 
 .cardsActivitesMarseille {
-
   border-radius: 20px 20px 20px 20px;
 
   background-color: white;
@@ -299,7 +332,7 @@ h5 {
 .cardsActivitesInfos {
   border: #f2f2f2;
   margin: 20px;
- 
+
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -308,12 +341,13 @@ h5 {
   height: 445px;
   border-radius: 20px 20px 20px 20px;
 }
+/***************** Footer *******************/
 
 .containerFooter {
   display: flex;
   gap: 300px;
   padding-left: 70px;
-  margin:  50px;
+  margin: 50px;
   padding-bottom: 58px;
   background-color: #f2f2f2;
   text-align: left;
@@ -327,21 +361,17 @@ h5 {
 
 }**/
 .listeFooter h6 {
+
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   margin-top: 45px;
- 
- 
 }
-/**
-.listeFooter ul {
-  display: flex;
-  flex-direction: row;
-}
-**/
-.listeFooter li {
-  list-style: none;
   
+
+.listeFooter ul{
+  font-size: 16px;
+  line-height: 19px;
+
 }
