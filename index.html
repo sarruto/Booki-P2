@@ -25,34 +25,36 @@
         <header>
           <!--Header-->
     
-          <div id="headerContainer">
-            <!--Logo-->
+         <!----Navbar------->
+        <nav class="navHeader"> 
               
-              <div id="logoHeader">
-                <img src="images/images Booki/logo/Booki.png"
+              
+                <img id="logoHeader" src="images/images Booki/logo/Booki.png"
                 alt="logo"/>
-              </div>
-              
-            <!--Navigateur Menu-->
-          <nav class="navHeader">   
-            <ul class="listeNavHeader">
-              <li class="listeNav"> <a href="#containerHebergement">Hébergements</a></li>
-              <li class="listeNav"> <a href="#containerActivitesMarseille">Activités</a></li>
-            </ul>
+             
+          
+              <div class="listeNav"> <a id="listeNav1" href="#containerHebergement">Hébergements</a></div>
+              <div class="listeNav"> <a href="#containerActivitesMarseille">Activités</a></div>
+            
           </nav>
-        </div>
+       
+        </nav>
         </header>
     
         <main>
+            <div class="titre" >
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
           <p>En plein centre-ville ou en pleine nature</p>
-    
+        </div>
+
+
           <!--Formulaire-->
+
           <div class="formulaires">
             <form action="" method="get">
               <i class="fa-solid fa-location-dot"></i>
               <input class="ville" type="text" placeholder="Marseille, France" />
-              <input class="boutonRecherche" type="submit" value="Rechercher" />
+              <button class="rechercher">Rechercher</button>
             </form>
           </div>
 
@@ -215,12 +217,11 @@
                   </a>
                 </article>
               
-              
             </div>
-          <a href="">Afficher Plus</a>
-        </div>
+            <a  class=" afficherPlus" href="">Afficher Plus</a>
+       
+          </div>
                 
-           
           
         
             <!--Les plus populaires-->

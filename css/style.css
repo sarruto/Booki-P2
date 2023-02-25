@@ -14,17 +14,19 @@ li {
 }
 
 h1 {
+   
   font-size: 22px;
   line-height: 26px;
   height: 26px;
-  left: 55px;
-  top: 126px;
+  
+ 
 
 }
 
 h2 {
   font-size: 22px;
   line-height: 26px;
+  padding: 40px;
   
 }
 
@@ -46,59 +48,67 @@ p {
   margin: 2px;
 }
 /***************** Header *******************/
-#headerContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
- 
-  height: 150px;
-  padding: 0 40px 0 40px;
-}
-#logoHeader img {
-  height: 19px;
-  top: 44px;
-  left: 55px;
-  object-fit: cover;
- 
-}
-/***************** Navigateur Menu *******************/
+/***************** Navbar *******************/
 
 .navHeader{
   display: flex;
-  width: 30%;
-}
-
-.listeNavHeader {
-  display: flex;
-  gap: 100px;
-  justify-content: space-evenly;
-  margin-left: 100px;
-
-}
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 10px;
   
+}
 
-.listeNav a {
-  font-size: 16px;
-  height: 49px;
-  line-height: 19px;
-  text-align: center;
+
+#logoHeader  {
+  height: 19px;
+  width: 61.09px;
+  margin-right: auto;
+  padding: 44px 0px 0px 55px ;
+  display: flex;
+  justify-content: center;
+
  
 }
+.listeNav {
+  display: block;
+  padding: 48px 77px ;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  
+ 
+}
+
+
+#listeNav1 {
+  color: #0065fc;
+   
+}
+
 
 .listeNav:hover {
   border-top: #0065fc 4px solid;
   
 }
 
+.titre{
+  padding: 0px 55px;
+}
   
+.titre p{
 
+  margin-bottom: 20px;
+}
 /***************** Formulaire *******************/
 
 .formulaires {
-  width: 60%;
-}
+    width:60%;
+    padding-left: 55px;
+  }
+    
 
 .formulaires i {
+  padding:16px 18ps 15px 18px ;
   width: 50px;
   height: 49px;
   background: #f2f2f2;
@@ -117,28 +127,25 @@ p {
   line-height: 21px;
   line-height: 100%;
   text-align: center;
-
   border-top: #f2f2f2;
   border: 1px;
   width: 40%;
   height: 49px;
+  
 }
 
-.boutonRecherche {
+.rechercher {
   font-size: 18px;
   line-height: 21px;
   line-height: 100%;
   text-align: center;
-
   color: white;
-
   height: 49px;
   top: 200px;
   left: 341px;
   padding: 15px 16px 15px 16px;
   gap: 10px;
   border-radius: 0px 15px 15px 0px;
-
   border: 1px;
   background: #0065fc;
 }
@@ -146,7 +153,7 @@ p {
 .filtreBar {
   display: flex;
   flex-direction: row;
-  padding: 20px;
+ padding: 20px 62px;
   width: 60%;
   font-size: 18px;
   line-height: 21px;
@@ -206,11 +213,12 @@ p {
   width: 24px;
   height: 24px;
   margin-right: 10px;
+ 
 }
 
 .info {
   margin-bottom: 20px;
-
+  padding-left: 59px;
   display: flex;
   align-items: center;
 }
@@ -221,11 +229,11 @@ p {
   flex-direction: row;
   justify-content: space-between;
   box-sizing: border-box;
+  padding: 50px;
 }
 
 #containerHebergement {
-  background-color: #f2f2f2;
-  padding: 10px;
+  background-color: #f2f2f2;  
   border-radius: 20px;
   flex-basis: 60%;
 }
@@ -235,12 +243,13 @@ p {
   font-size: 18px;
   line-height: 21px;
   font-weight: 700;
+ 
 }
 
 .groupCardsHebergement{
   display: flex;
-  flex-wrap: wrap;
-  gap:10px ;
+  flex-wrap: wrap; 
+ padding: 40px ;
   justify-content: space-around;
   margin-bottom: 20px;
 }
@@ -260,7 +269,9 @@ p {
   object-fit: cover;
 }
 
-
+.afficherPlus{
+  padding: 40px 729px 46px 44px;
+}
 
 /***************** Les plus populaires *******************/
 #containerPopulaire {
@@ -318,6 +329,7 @@ p {
 #containerPopulaire h2{
   display: flex;
   justify-content: space-between;
+  padding: 41px 118px 26px 37px;
   
 
 
@@ -327,22 +339,18 @@ p {
 
 /***************** Activité à Marseille *******************/
 
-
-
-
+#containerActivites h2{
+  padding-left: 50px;
+}
 
 
 #containerActivites{
   padding: 20px;
   margin-top:50px;
  
-  
-  
-  
-  
-  
-  
 }
+
+
 .cardsActivitesMarseille{
   box-shadow: 0 0 16px gray  ;
   border-radius: 20px ;
