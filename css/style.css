@@ -235,23 +235,17 @@ p {
 #containerHebergement {
   background-color: #f2f2f2;  
   border-radius: 20px;
-  flex-basis: 60%;
+  flex-basis: 65%;
+  
 }
 
-
-#containerHebergement a{
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 700;
- 
-}
 
 .groupCardsHebergement{
   display: flex;
   flex-wrap: wrap; 
- padding: 40px ;
   justify-content: space-around;
-  margin-bottom: 20px;
+  
+ 
 }
 
 
@@ -259,7 +253,8 @@ p {
    background: white;
    border-radius: 20px ;
    border: 5px solid #FFFFFF;
-   box-shadow: 0 0 16px gray  ;
+   box-shadow: 0 0 16px gray;
+   margin: 30px;
 }
 
 .imgHebergement{
@@ -268,9 +263,20 @@ p {
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
+.cardsHebergememtInfos{
 
+  margin: 9px;
+}
+
+#containerHebergement a{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+ 
+}
 .afficherPlus{
   padding: 40px 729px 46px 44px;
+  
 }
 
 /***************** Les plus populaires *******************/
@@ -303,10 +309,10 @@ p {
   display: flex;
   
   border-radius: 20px 20px 20px 20px;
-  padding: 5px 5px 5px 5px;
+ 
   border-color: white;
   background-color: white;
-  margin: 10px;
+  margin: 33px;
   box-shadow: 0 0 16px gray  ;
  
   
@@ -334,6 +340,12 @@ p {
 
 
 }
+.cardsPopulairesInfos h3 {
+  margin-bottom:44px ;
+  margin-top: 16px;
+
+}
+                    
 
  
 
