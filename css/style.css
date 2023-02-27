@@ -108,9 +108,7 @@ p {
     
 
 .formulaires i {
-  padding:16px 18ps 15px 18px ;
-  width: 50px;
-  height: 49px;
+  padding:16px 18px 15px 18px ;
   background: #f2f2f2;
   border: 1px solid;
   border-color: #f2f2f2;
@@ -442,5 +440,6 @@ p {
 }
 
 /***************** Responsive *******************/
+
 
 
