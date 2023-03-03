@@ -1,12 +1,14 @@
 * {
   font-family: "Raleway", sans-serif;
-  
+}
+body {
+  max-width: 1400px;
+  margin: auto;
 }
 
 a {
   color: black;
   text-decoration: none;
-
 }
 
 li {
@@ -14,20 +16,15 @@ li {
 }
 
 h1 {
-   
   font-size: 22px;
   line-height: 26px;
   height: 26px;
-  
- 
-
 }
 
 h2 {
   font-size: 22px;
   line-height: 26px;
   padding: 40px;
-  
 }
 
 h3 {
@@ -50,65 +47,53 @@ p {
 /***************** Header *******************/
 /***************** Navbar *******************/
 
-.navHeader{
+.navHeader {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
   padding: 10px;
-  
 }
 
-
-#logoHeader  {
+#logoHeader {
   height: 19px;
   width: 61.09px;
   margin-right: auto;
-  padding: 44px 0px 0px 55px ;
+  padding: 44px 0px 0px 55px;
   display: flex;
   justify-content: center;
-
- 
 }
 .listeNav {
   display: block;
-  padding: 48px 77px ;
+  padding: 48px 77px;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  
- 
 }
-
 
 #listeNav1 {
   color: #0065fc;
-   
 }
-
 
 .listeNav:hover {
   border-top: #0065fc 4px solid;
-  
 }
 
-.titre{
+.titre {
   padding: 0px 55px;
 }
-  
-.titre p{
 
+.titre p {
   margin-bottom: 20px;
 }
 /***************** Formulaire *******************/
 
 .formulaires {
-    width:60%;
-    padding-left: 55px;
-  }
-    
+  width: 60%;
+  padding-left: 55px;
+}
 
 .formulaires i {
-  padding:16px 18px 15px 18px ;
+  padding: 16px 18px 15px 18px;
   background: #f2f2f2;
   border: 1px solid;
   border-color: #f2f2f2;
@@ -129,7 +114,6 @@ p {
   border: 1px;
   width: 40%;
   height: 49px;
-  
 }
 
 .rechercher {
@@ -151,7 +135,7 @@ p {
 .filtreBar {
   display: flex;
   flex-direction: row;
- padding: 20px 62px;
+  padding: 20px 62px;
   width: 60%;
   font-size: 18px;
   line-height: 21px;
@@ -159,8 +143,6 @@ p {
   vertical-align: top;
   color: black;
   justify-content: space-between;
-  
- 
 }
 
 .elementFiltreBarFiltre {
@@ -194,24 +176,23 @@ p {
 }
 
 .fa-solid {
-  color: #0065fc; 
+  color: #0065fc;
 }
 
-.fa-regular{
- color: #F2F2F2;
+.fa-regular {
+  color: #f2f2f2;
 }
 
-.info i{
+.info i {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid ;
+  border: 1px solid;
   border-color: #d9d9d9;
   border-radius: 50%;
   width: 24px;
   height: 24px;
   margin-right: 10px;
- 
 }
 
 .info {
@@ -231,59 +212,45 @@ p {
 }
 
 #containerHebergement {
-  background-color: #f2f2f2;  
+  background-color: #f2f2f2;
   border-radius: 20px;
   flex-basis: 65%;
-  
 }
 
-
-.groupCardsHebergement{
+.groupCardsHebergement {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: space-around;
- 
-  
- 
 }
 
-
-.cardsHebergement{
-   background: white;
-   border-radius: 20px ;
-   border: 5px solid #FFFFFF;
-   box-shadow: 0 0 16px gray;
-   margin-bottom: 30px;
-   margin-right: 20px;
-   margin-left: 20px; 
-  
+.cardsHebergement {
+  background: white;
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 16px gray;
+  margin-bottom: 30px;
 }
 
-.imgHebergement{
-  width: 246px;
+.imgHebergement {
+  width: 236px;
   height: 124px;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
-.cardsHebergememtInfos{
-
+.cardsHebergememtInfos {
   margin: 9px;
 }
 
-#containerHebergement a{
+#containerHebergement a {
   font-size: 18px;
   line-height: 21px;
   font-weight: 700;
-  display: block;
   margin-bottom: 40px;
-
 }
 
-.afficherPlus{
-  padding: 40px 729px 46px 44px;
-  
+.afficherPlus {
+  padding: 40px 0px 46px 44px;
 }
-
 
 /***************** Les plus populaires *******************/
 #containerPopulaire {
@@ -293,134 +260,101 @@ p {
   border-radius: 20px 20px 20px 20px;
   border: #f2f2f2 solid;
   background-color: #f2f2f2;
- 
- 
-  
-  
+  padding-left: 37px;
 }
-  
-.groupCardsPopulaire{
+
+.groupCardsPopulaire {
   display: flex;
   flex-direction: column;
-  gap:10px ;
+  gap: 10px;
   justify-content: space-around;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
-
-
-  
-
-
 
 .cardsPopulaires {
   display: flex;
-  
   border-radius: 20px 20px 20px 20px;
- 
   border-color: white;
   background-color: white;
-  margin: 33px;
-  box-shadow: 0 0 16px gray  ;
- 
-  
+  margin-bottom: 33px;
+  box-shadow: 0 0 16px gray;
+  width: 343px;
+  height: 144px;
 }
-
 
 .imgPopulaire {
   width: 137px;
   height: 144px;
   border-radius: 20px 0px 0px 20px;
   object-fit: cover;
-  border: 5px solid #FFFFFF;
+  border: 5px solid #ffffff;
   box-sizing: border-box;
 }
 
-.cardsPopulaires star{
-  margin-top:60px ;
+.cardsPopulairesstar {
+  margin-top: 60px;
 }
 
-#containerPopulaire h2{
+#containerPopulaire h2 {
   display: flex;
   justify-content: space-between;
   padding: 41px 118px 26px 37px;
-  
-
-
 }
 .cardsPopulairesInfos h3 {
-  margin-bottom:44px ;
+  margin-bottom: 44px;
   margin-top: 16px;
-
 }
-                    
-
- 
 
 /***************** Activité à Marseille *******************/
 
-#containerActivites h2{
+#containerActivites h2 {
   padding-left: 50px;
 }
 
-
-#containerActivites{
+#containerActivites {
   padding: 20px;
-  margin-top:50px;
- 
+  margin-top: 50px;
 }
 
-
-.cardsActivitesMarseille{
-  box-shadow: 0 0 16px gray  ;
-  border-radius: 20px ;
+.cardsActivitesMarseille {
+  box-shadow: 0 0 16px gray;
+  border-radius: 20px;
 }
-  
 
-.groupCardsActivites{
-
+.groupCardsActivites {
   display: flex;
   flex-wrap: wrap;
-  gap:10px ;
+  gap: 10px;
   justify-content: space-around;
   margin-bottom: 20px;
-  
 }
 
 .imgActivites {
   width: 302px;
   height: 445px;
   border-radius: 20px 20px 0px 0px;
-
   object-fit: cover;
 }
 
-.cardsActivitesInfos{
+.cardsActivitesInfos {
   padding-top: 15px;
-  margin:  10px;
-  
+  margin: 10px;
 }
-
 
 /***************** Footer *******************/
 
 .containerFooter {
   display: flex;
-  gap: 300px;
-  padding-left: 70px;
+  padding: 0px 0px 50px 70px;
   margin: 50px;
-  padding-bottom: 58px;
   background-color: #f2f2f2;
-  text-align: left;
-  height: 191px;
 }
- 
+
 .listeFooter {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    
-    
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
 .listeFooter h4 {
   font-style: normal;
@@ -428,18 +362,104 @@ p {
   font-size: 18px;
   line-height: 21px;
   margin-top: 45px;
- 
-
 }
 
-.listeFooter p{
+.listeFooter p {
   font-size: 16px;
   line-height: 19px;
   margin: 2px;
   margin-bottom: 5px;
 }
 
-/***************** Responsive *******************/
+/***************** Responsive Tablette *******************/
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.filtreBar {
+  display: flex;
+  align-content: space-between;
+  }
 
+  #containerHebergementEtPo {
+    display: flex;
+    flex-direction: column;
+  }
 
+.groupCardsPopulaire {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 44px 0px 10px; 
+}
+  
+.cardsPopulaires {
+  width: 252px;
+  height: 144px;
+  }
+
+.imgPopulaire {
+  width: 106px;
+  height: 144px;
+  }
+
+.cardsActivitesInfos {
+  width: 146px;
+  }
+
+.cardsPopulairesInfos h3 {
+  margin-bottom: 7px;
+  margin-top: 7px;
+  }
+
+.imgActivites {
+  width: 182px;
+  height: 267px;
+  }
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  
+  }
+}
+
+/***************** Responsive Mobile *******************/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  h1 {
+    width: 298px;
+    height: 52px;  
+  }
+  
+  .navHeader {
+    display: flex;
+    justify-content: column;
+      
+    }
+  
+  #containerHebergement {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    flex-basis: 100%;
+    }
+  
+  #containerPopulaire{
+    flex-basis: auto;
+    
+    }
+   
+  .cardsPopulaires {
+    width: 100%;
+    height: 144px;
+    }
+   
+   
+   
+   
+  #containerHebergementEtPo {
+    display: flex;
+    flex-direction: column-reverse;
+      
+  }
+  
+  
+  
+  }
