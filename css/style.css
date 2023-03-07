@@ -96,7 +96,7 @@ p {
   padding: 16px 18px 15px 18px;
   background: #f2f2f2;
   border: 1px solid;
-  border-color: #f2f2f2;
+  border-color: #ffffff;
   border-radius: 15px 0px 0px 15px;
   display: flex;
   justify-content: center;
@@ -147,7 +147,7 @@ p {
 
 .elementFiltreBarFiltre {
   display: flex;
-  justify-content: flex-start;
+
 
   font-style: normal;
   font-weight: 700;
@@ -274,7 +274,7 @@ p {
 .cardsPopulaires {
   display: flex;
   border-radius: 20px 20px 20px 20px;
-  border-color: white;
+ 
   background-color: white;
   margin-bottom: 33px;
   box-shadow: 0 0 16px gray;
@@ -377,19 +377,28 @@ p {
 .filtreBar {
   display: flex;
   align-content: space-between;
+  width: 80%;
   }
 
-  #containerHebergementEtPo {
+.ville {
+    width: 50%;
+
+  }
+#containerHebergementEtPo {
     display: flex;
     flex-direction: column;
+    
+    
   }
+
+  
 
 .groupCardsPopulaire {
   display: flex;
   flex-direction: row;
   padding: 0px 44px 0px 10px; 
 }
-  
+
 .cardsPopulaires {
   width: 252px;
   height: 144px;
@@ -424,42 +433,111 @@ p {
 /***************** Responsive Mobile *******************/
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  h1 {
-    width: 298px;
-    height: 52px;  
+
+  #logoHeader{
+    justify-content: center;
+
+  }   
+  
+ h1{
+  width: 298px;
+  height: 52px;  
+ }
+
+  .titre p{
+    width: 315px;
+    height: 19px;
   }
-  
-  .navHeader {
+  .formulaires{
+    width:80%;
+
+  }
+  .ville {
+   width: 70%;
+
+  }
+  .filtreBar{
     display: flex;
-    justify-content: column;
-      
-    }
-  
-  #containerHebergement {
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    flex-basis: 100%;
-    }
-  
-  #containerPopulaire{
-    flex-basis: auto;
-    
-    }
-   
-  .cardsPopulaires {
-    width: 100%;
-    height: 144px;
-    }
-   
-   
-   
-   
+    flex-direction: column;
+
+  }
+  .elementFiltreBar  {
+    display: flex;
+    Width: 160px;
+    height:50px;
+
+
+  }
+  .elementFiltreBarDog{
+    display: flex;
+    Width: 160px;
+    height:50px;
+    background-color: #ffffff;
+
+  }
   #containerHebergementEtPo {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
       
   }
-  
-  
+
+  #containerHebergement {
+    background-color: white;
+    border-radius: 20px;
+    
+    }
+  .cardsHebergement{
+    width: 335px;
+    height: 199px;
+
+  }
+  .imgHebergement {
+      width: 335px;
+      height: 124px;}
+
+
+
+ 
+  .cardsPopulaires {
+    width: 334px;
+    height: 144px;
+      }
+   
+    #containerPopulaire {
+      display:flex ;
+      align-items: center;
+      padding-left: 0px;
+        
+          }
+   
+   
+  .groupCardsPopulaire{
+    margin:10px 21px 47px 20px;
+   }
+  .cardsActivitesMarseille {
+    width: 334px;
+    height: 190px;
   
   }
+
+  .imgActivites {
+    width: 334px;
+    height: 134px;
+    }
+
+  .containerFooter {
+      display: flex;
+      flex-direction: column;
+    } 
+
+
+  .cardsActivitesInfos{
+      width: 334px;
+      height: 56px;
+    }
+    .cardsActivitesMarseille{
+      margin:24px 22px 22px 19px;
+      
+    }
+}
