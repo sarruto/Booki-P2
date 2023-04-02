@@ -2,8 +2,8 @@
   font-family: "Raleway", sans-serif;
 }
 body {
-  max-width: 1400px;
-  margin: auto;
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
 }
 
 a {
@@ -24,14 +24,16 @@ h1 {
 h2 {
   font-size: 22px;
   line-height: 26px;
-  padding: 40px;
+  padding: 42px 0px 23px 40px;
+ 
 }
 
 h3 {
   font-size: 16px;
   line-height: 19px;
   margin: 2px;
-  font-weight: 700;
+  font-weight: bold;
+  
 }
 
 h4 {
@@ -51,7 +53,7 @@ p {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  padding: 10px;
+  
 }
 
 #logoHeader {
@@ -63,17 +65,22 @@ p {
   justify-content: center;
 }
 
+
 #nav {
   display: flex;
+  justify-content: space-around;
 }
-
 .listeNav {
   display: block;
-  padding: 48px 77px;
+  padding: 48px ;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
+  width: 50%;
 }
+
+
+
 
 #listeNav1 {
   color: #0065fc;
@@ -96,25 +103,31 @@ p {
   width: 60%;
   padding-left: 55px;
 }
+form#formRecherche {
+  display: flex;
+}
+#formRecherche >i {
+  color: black;
+}
 
 .formulaires i {
   padding: 16px 18px 15px 18px;
   background: #f2f2f2;
-  border: 1px solid;
-  border-color: #ffffff;
+  border: 1px solid #f2f2f2;
   border-radius: 15px 0px 0px 15px;
-
   justify-content: center;
   align-items: center;
 }
 
 .ville {
   font-size: 18px;
-  border-top: #f2f2f2;
-  border: 1px;
+  border: 1px solid #f2f2f2;
   text-align: center;
+  height: 45px;
 }
-
+.ville::placeholder{
+  color: black;
+}
 .rechercher {
   font-size: 18px;
   line-height: 21px;
@@ -130,6 +143,7 @@ p {
   border: 1px;
   background: #0065fc;
 }
+
 
 #loupe {
   display: none;
@@ -214,18 +228,28 @@ p {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 50px;
+  gap: 40px;
 }
 
 #containerHebergement {
   background-color: #f2f2f2;
   border-radius: 20px;
-  flex-basis: 65%;
+  flex-basis: 65.5%;
+}
+
+#containerHebergement a {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
 .groupCardsHebergement {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .cardsHebergement {
@@ -246,18 +270,19 @@ p {
   margin: 9px;
 }
 
-#containerHebergement a {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 700;
-  margin-bottom: 40px;
-}
+
 
 .afficherPlus {
   padding: 40px 0px 46px 44px;
 }
 
 /***************** Les plus populaires *******************/
+#containerPopulaire h2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 41px 0px 26px 37px;
+}
+
 #containerPopulaire {
   display: flex;
   flex-direction: column;
@@ -265,7 +290,6 @@ p {
   border-radius: 20px 20px 20px 20px;
   border: #f2f2f2 solid;
   background-color: #f2f2f2;
-  padding-left: 37px;
 }
 
 .groupCardsPopulaire {
@@ -273,7 +297,10 @@ p {
   flex-direction: column;
   gap: 10px;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 34px;
+  margin-right: 40px;
+  margin-left: 37px;
+
 }
 
 .cardsPopulaires {
@@ -300,37 +327,39 @@ p {
   margin-top: 60px;
 }
 
-#containerPopulaire h2 {
-  display: flex;
-  justify-content: space-between;
-  padding: 41px 118px 26px 37px;
-}
-.cardsPopulairesInfos h3 {
+
+.cardsPopulairesInfos  {
   margin-bottom: 44px;
   margin-top: 16px;
 }
 
+
 /***************** Activité à Marseille *******************/
+section#containerActivitesMarseille {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 #containerActivites h2 {
   padding-left: 50px;
 }
 
 #containerActivites {
-  padding: 20px;
   margin-top: 50px;
 }
 
 .cardsActivitesMarseille {
   box-shadow: 0 0 16px gray;
   border-radius: 20px;
+  
+  
 }
 
 .groupCardsActivites {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
@@ -351,8 +380,8 @@ p {
 .containerFooter {
   display: flex;
   padding: 0px 0px 50px 70px;
-  margin: 50px;
   background-color: #f2f2f2;
+  margin: 61px 53px 0px 48px;
 }
 
 .listeFooter {
@@ -378,7 +407,7 @@ p {
 
 /***************** Responsive Tablette *******************/
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and  (max-width: 992px) {
   /***************** Formulaire *******************/
 
   .ville {
@@ -397,6 +426,8 @@ p {
   }
   .elementFiltreBarDog {
     margin-left: 25px;
+    width: 225px;
+    background-color: white;
   }
 
   /***************** Hébergements à Marseille *******************/
@@ -455,7 +486,7 @@ p {
 
 /***************** Responsive Mobile *******************/
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   /***************** Header *******************/
   /***************** Navbar *******************/
 
@@ -509,10 +540,7 @@ p {
     padding-bottom: 34px;
   }
 
-  .formulaires i {
-    width: 50px;
-    height: 49px;
-  }
+ 
 
   .ville {
     text-align: center;
@@ -532,8 +560,6 @@ p {
     display: flex;
     padding: 15px 16px;
     justify-content: center;
-    width: 49px;
-    height: 49px;
     color: white;
     background: #0065fc;
     border: 1px solid #0065fc;
@@ -625,7 +651,10 @@ p {
 
   .groupCardsPopulaire {
     margin: 10px 21px 47px 20px;
+    display: flex;
+    flex-direction: column;
   }
+
   .cardsActivitesMarseille {
     width: 334px;
     height: 190px;
