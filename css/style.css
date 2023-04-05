@@ -328,12 +328,12 @@ form#formRecherche {
 
 .imgPopulaire {
 
-    width: 76%;
-    height: 144px;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
-    border: 5px solid #ffffff;
-    box-sizing: border-box;
+  width: 76%;
+  height: 144px;
+  border-radius: 20px 0px 0px 20px;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  box-sizing: border-box;
 }
 
 
