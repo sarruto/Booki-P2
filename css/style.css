@@ -386,19 +386,18 @@ margin:20px 0px 0px 20px
 
 
 /***************** Activité à Marseille *******************/
+
 section#containerActivitesMarseille {
   padding-left: 50px;
   padding-right: 50px;
 }
 
 #containerActivites h2 {
-  padding-left: 50px;
-}
+  padding: 0px;
+ }
+ 
 
-#containerActivites {
-  margin-top: 50px;
-}
-
+ 
 .cardsActivitesMarseille {
   box-shadow: 0 0 16px gray;
   border-radius: 20px;
@@ -470,17 +469,27 @@ section#containerActivitesMarseille {
   .filtreBar {
     display: flex;
     align-content: space-between;
-    width: 80%;
   }
 
-  .elementFiltreBar {
-    margin-left: 25px;
+  #elementFiltre {
+    display: flex;
+    max-width: 918px;
+    justify-content: space-between;
   }
-  .elementFiltreBarDog {
-    margin-left: 25px;
-    width: 225px;
-    background-color: white;
-  }
+
+
+.elementFiltreBarDog {
+  margin-left: 25px;
+  width: 225px;
+  background-color: white;
+}
+
+
+
+
+
+
+  
 
   /***************** Hébergements à Marseille *******************/
 
@@ -548,8 +557,7 @@ section#containerActivitesMarseille {
     font-weight: bold;
   }
 
-  .cardPopulairesInfosTitre p{
-  }
+  
 
 
 
@@ -559,15 +567,25 @@ section#containerActivitesMarseille {
  
   /***************** Activité à Marseille *******************/
 
-  .cardsActivitesInfos {
-    width: 146px;
-  }
+  #containerActivites h2 {
+    padding: 0px;
+   }
 
+  .cardsActivitesMarseille {
+    width: 182px;
+    height: 267px;
+  }
+  
   .imgActivites {
     width: 182px;
-    height: 180px;
+    height: 211px;
   }
-
+  
+  .cardsActivitesInfos {
+    width: 182px;
+    height: 56px;
+    padding-top: 0px;
+  }
   /***************** Footer *******************/
 
   .containerFooter {
@@ -591,12 +609,9 @@ section#containerActivitesMarseille {
     }
     
 
-  .navHeader {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  header{
+  display: flex ;
   }
-
   #logoHeader {
     margin-left: 130px;
     margin-bottom: 20px;
