@@ -407,13 +407,12 @@ section#containerActivitesMarseille {
 
 .groupCardsActivites {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
   justify-content: space-between;
-  margin-bottom: 20px;
+
 }
 
 .imgActivites {
+  display: flex;
   width: 302px;
   height: 445px;
   border-radius: 20px 20px 0px 0px;
