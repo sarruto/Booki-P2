@@ -179,6 +179,8 @@ form#formRecherche {
   padding: 15px 20px;
 }
 
+
+
 .elementFiltreBar .fa-solid {
   margin-right: 6px;
 }
@@ -356,7 +358,7 @@ margin:20px 0px 0px 20px
 
 .imgPopulaires {
   max-width: 137px;
-  max-height: 144px;
+  max-height: 140px;
   width: 40%;
   border-radius: 20px 0px 0px 20px;
   object-fit: cover;
@@ -611,9 +613,7 @@ section#containerActivitesMarseille {
   display: flex ;
   }
   #logoHeader {
-    margin-left: 130px;
-    margin-bottom: 20px;
-    margin-right: auto;
+    
   }
 
   #nav {
@@ -719,8 +719,7 @@ section#containerActivitesMarseille {
 
   .elementFiltreBar {
     display: flex;
-    width: 130px;
-    height: 40px;
+    
     border-radius: 40px;
     border: 2px solid #d9d9d9;
     margin-top: 17px;
@@ -731,9 +730,8 @@ section#containerActivitesMarseille {
   }
   .elementFiltreBarDog {
     display: flex;
-    width: 160px;
-    height: 50px;
-    border-radius: 25px;
+   
+    border-radius: 50px;
     border: 2px solid #d9d9d9;
     background-color: #ffffff;
     margin-top: 17px;
@@ -828,6 +826,7 @@ section#containerActivitesMarseille {
     font-size: 14px;
   
   }
+
   .cardsActivitesMarseille {
     width: 334px;
     height: 190px;
@@ -849,9 +848,15 @@ section#containerActivitesMarseille {
 
 
   #containerActivites h2 {
-    margin-left: -180px;
-    padding-left: 50px;
+    padding-top: 105px;
 }
+
+
+    .groupCardsActivites{
+      display: flex;
+      flex-direction: column;
+
+    }
 
   .cardsActivitesInfos {
     width: 334px;
