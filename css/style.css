@@ -412,11 +412,14 @@ section#containerActivitesMarseille {
   justify-content: space-between;
 
 }
+.cardsActivitesMarseille{
+  width: 22.5%;
 
+}
 .imgActivites {
   display: flex;
-  width: 302px;
-  height: 445px;
+  width: 100%;
+  height: 389px;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
@@ -461,15 +464,22 @@ section#containerActivitesMarseille {
 
 @media screen and  (max-width: 1024px) {
   /***************** Formulaire *******************/
-
+ 
   .ville {
     width: 50%;
   }
   /***************** Filtre *******************/
+  .elementFiltreBarFiltre{
+  padding-right: 1.7%;
 
+}
   .filtreBar {
     display: flex;
     align-content: space-between;
+    padding: 20px 4%;
+  }
+  .elementFiltreBar{
+    padding: 15px 2.2%;
   }
 
   #elementFiltre {
@@ -572,12 +582,12 @@ section#containerActivitesMarseille {
    }
 
   .cardsActivitesMarseille {
-    width: 182px;
+   
     height: 267px;
   }
   
   .imgActivites {
-    width: 182px;
+    width: 100%;
     height: 211px;
   }
   
@@ -611,14 +621,19 @@ section#containerActivitesMarseille {
 
   header{
   display: flex ;
+  flex-direction: column;
+  align-items: center;
   }
-  #logoHeader {
-    
+  
+  #logoHeader{
+    display: flex;
+    padding-left: 0px;
   }
 
   #nav {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 
   .listeNav {
@@ -630,12 +645,13 @@ section#containerActivitesMarseille {
   .listeNav:hover {
     border-bottom: blue solid 3px;
     border-top: none;
-    width: 187px;
+   
   }
 
   h1 {
     width: 298px;
     height: 52px;
+    size: 22px;
   }
 
 
@@ -646,8 +662,7 @@ section#containerActivitesMarseille {
   }
 
   h2 {
-    text-align: center;
-    height: 26px;
+    padding-left: 20px;
   }
 
   .formulaires {
@@ -711,30 +726,39 @@ section#containerActivitesMarseille {
 
   #elementFiltre {
     display: flex;
-    flex-direction: column;
+    
     flex-wrap: wrap;
+   
+    justify-content: space-between;
+    
     height: 220px;
-    align-content: center;
   }
 
   .elementFiltreBar {
     display: flex;
-    
-    border-radius: 40px;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
     border: 2px solid #d9d9d9;
     margin-top: 17px;
-    margin-right: 14px;
-    justify-content: flex-start;
+   
+    
+    justify-content: center;
     align-items: center;
-    font-size: 14px;
+   
+    font-size: 11px;
   }
   .elementFiltreBarDog {
     display: flex;
-   
+    width: 180px;
+    height: 50px;
     border-radius: 50px;
     border: 2px solid #d9d9d9;
     background-color: #ffffff;
     margin-top: 17px;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
   }
   .fa-solid {
     width: 22px;
@@ -787,6 +811,9 @@ section#containerActivitesMarseille {
     margin-bottom: 40px;
   
   }
+
+
+
   
   .cardsPopulaires {
     align-self: center;
@@ -821,7 +848,23 @@ section#containerActivitesMarseille {
     padding-left: 20px;
     padding-right: 50px;
 }
+  .groupCardsActivites{
+    
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+      padding: 12px;
   
+
+
+
+
+
+  }
   .cardsPopulairesInfos p{
     font-size: 14px;
   
@@ -849,14 +892,11 @@ section#containerActivitesMarseille {
 
   #containerActivites h2 {
     padding-top: 105px;
+    padding-left: 22px;
 }
 
 
-    .groupCardsActivites{
-      display: flex;
-      flex-direction: column;
-
-    }
+    
 
   .cardsActivitesInfos {
     width: 334px;
