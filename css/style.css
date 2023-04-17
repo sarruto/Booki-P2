@@ -179,7 +179,10 @@ form#formRecherche {
   padding: 15px 20px;
 }
 
-
+.elementFiltreBar:hover{
+  background: #deebff;
+}
+}
 
 .elementFiltreBar .fa-solid {
   margin-right: 6px;
