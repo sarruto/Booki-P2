@@ -516,9 +516,7 @@ section#containerActivitesMarseille {
   
 
   /***************** Hébergements à Marseille *******************/
-  h2{
-    padding-left: 4.4%;
-  }
+  
 
 
   #containerHebergementEtPo {
@@ -567,7 +565,7 @@ section#containerActivitesMarseille {
     align-self: center;
     width: 80%;
     max-height: 163px;
-    max-width: 100%;
+    max-width: 259px;
     background-color: #ffffff;
     border-radius: 20px;
     border: 5px solid #ffffff;
@@ -677,7 +675,7 @@ section#containerActivitesMarseille {
   h1 {
     width: 298px;
     height: 52px;
-    size: 22px;
+    font-size: 22px;
   }
 
 
