@@ -664,6 +664,8 @@ section#containerActivitesMarseille {
     width: 50%;
     text-align: center;
     padding-bottom: 39px;
+    
+    padding: 48px 0px 0px 0px;
   }
 
   .listeNav:hover {
@@ -673,7 +675,7 @@ section#containerActivitesMarseille {
   }
 
   h1 {
-    width: 298px;
+   
     height: 52px;
     font-size: 22px;
   }
@@ -681,7 +683,7 @@ section#containerActivitesMarseille {
 
 
   .titre p {
-    width: 315px;
+    
     height: 19px;
   }
 
@@ -690,6 +692,7 @@ section#containerActivitesMarseille {
     width: 100%;
     height: 49px;
     padding-bottom: 34px;
+    box-sizing: border-box;
   }
 
  
@@ -739,7 +742,7 @@ section#containerActivitesMarseille {
   }
 
   .elementFiltreBarFiltre {
-    width: 555px;
+
     height: 21px;
     left: 20px;
     top: 366px;
@@ -757,16 +760,12 @@ section#containerActivitesMarseille {
 
   .elementFiltreBar {
     display: flex;
-    width: 180px;
+    width: 42.6%;
     height: 16px;
     border-radius: 50px;
     border: 2px solid #d9d9d9;
     margin-top: 17px;
-   
-    
     justify-content: center;
-    align-items: center;
-   
     font-size: 11px;
   }
   .elementFiltreBarDog {
@@ -787,7 +786,7 @@ section#containerActivitesMarseille {
   }
 
   .info p {
-    width: 298px;
+ 
     height: 57px;
   }
 
@@ -854,7 +853,7 @@ section#containerActivitesMarseille {
     display: flex;
     flex-direction: column;
     margin: 9px;
-    padding-left: 15px;
+    padding-left: 1.5%;
     justify-content: space-between;
   
   
@@ -868,8 +867,8 @@ section#containerActivitesMarseille {
   }
   
   section#containerActivitesMarseille {
-    padding-left: 20px;
-    padding-right: 50px;
+    padding-left: 4.4%;
+    padding-right: 4.4%;
 }
   .groupCardsActivites{
     
@@ -877,10 +876,10 @@ section#containerActivitesMarseille {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+      justify-content: space-between;
+      gap: 24px;
       margin-bottom: 40px;
-      padding: 12px;
+      padding: 0px;
   
 
 
@@ -907,7 +906,7 @@ section#containerActivitesMarseille {
 
 
   .cardsActivitesInfos {
-    width: 334px;
+  
     height: 56px;
   }
   
