@@ -467,6 +467,7 @@ section#containerActivitesMarseille {
 @media screen and  (max-width: 1024px) {
   #logoHeader{
     padding-left: 4.4%;
+    padding-right: 4.4%;
   }
 
   .titre{
@@ -475,6 +476,7 @@ section#containerActivitesMarseille {
   /***************** Formulaire *******************/
  .formulaires{
  padding-left: 4.4%;
+ padding-right: 4.4%;
  }
   .ville {
     width: 50%;
@@ -488,6 +490,7 @@ section#containerActivitesMarseille {
     display: flex;
     align-content: space-between;
     padding: 20px 4%;
+    padding-left: 4.4%;
   }
   .elementFiltreBar{
     padding: 15px 2.2%;
@@ -511,6 +514,7 @@ section#containerActivitesMarseille {
 
 .info{
   padding-left: 4.4%;
+  padding-right: 4.4%;
 }
   
 
@@ -522,6 +526,7 @@ section#containerActivitesMarseille {
     display: flex;
     flex-direction: column;
     padding-left: 4.4%;
+    padding-right: 4.4%;
   }
 
   #containerHebergement {
@@ -601,6 +606,7 @@ section#containerActivitesMarseille {
   #containerActivitesMarseille{
     padding-left: 4.4%;
     padding-right : 4.4% ;
+   
   
   }
 
@@ -631,6 +637,7 @@ section#containerActivitesMarseille {
     flex-direction: row;
     background-color: #f2f2f2;
     padding-left: 4.4%;
+    padding-right: 4.4%;
   }
 
 
