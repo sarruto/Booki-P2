@@ -75,16 +75,15 @@ header {
   line-height: 19px;
 }
 
-#listeNav1 {
-  color: #0065fc;
-}
+
 
 .listeNav:hover {
   border-top: #0065fc 2px solid;
   padding-top: 46px;
+  color: #0065fc;
 }
 
-.titre {
+.titre { 
   padding: 0px 55px;
 }
 
@@ -563,7 +562,7 @@ section#containerActivitesMarseille {
   
   .cardsPopulaires {
     align-self: center;
-    width: 80%;
+    width: 30%;
     max-height: 163px;
     max-width: 259px;
     background-color: #ffffff;
@@ -574,8 +573,8 @@ section#containerActivitesMarseille {
 
 
   .imgPopulaires {
-    max-width: 107px;
-    max-height: 144px;
+    width: 33%;
+    height: 136px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
   }
@@ -587,10 +586,16 @@ section#containerActivitesMarseille {
   
   }
 
+  .cardsPopulairesInfos{
+    width: 67%;
+    margin: 0px;
+  }
 
 
-
- 
+  #containerPopulaires a{
+    min-height: 0px;
+    
+  }
  
   /***************** Activité à Marseille *******************/
   #containerActivitesMarseille{
