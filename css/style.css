@@ -74,6 +74,10 @@ header {
   font-weight: 500;
   line-height: 19px;
 }
+.listeNav:hover  a{
+  
+  color: #0065fc;
+}
 
 
 
@@ -544,13 +548,17 @@ section#containerActivitesMarseille {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 20px;
+    margin-right: 0px;
   }
   
   .titrePopulairesI{
   align-self: center;
   margin:30px 0px 0px 20px
   
+  }
+
+  .titrePopulairesh2{
+    padding: 0px 0px 23px 40px; ;
   }
 
   .groupCardsPopulaires {
@@ -595,7 +603,11 @@ section#containerActivitesMarseille {
     width: 67%;
     margin: 0px;
   }
-
+  #containerPopulaires{
+    box-sizing: border-box;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+  }
 
   #containerPopulaires a{
     min-height: 0px;
