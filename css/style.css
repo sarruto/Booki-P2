@@ -25,7 +25,7 @@ h1 {
 h2 {
   font-size: 22px;
   line-height: 26px;
-  padding: 42px 0px 23px 0px;
+  padding: 42px 0px 23px 40px;
   font-weight: bold;
 }
 
@@ -524,7 +524,9 @@ section#containerActivitesMarseille {
 
   /***************** Hébergements à Marseille *******************/
   
-
+  h2{
+    padding: 42px 0px 23px 0px;
+  }
 
   #containerHebergementEtPo {
     display: flex;
@@ -829,7 +831,7 @@ section#containerActivitesMarseille {
     flex-direction: column;
     background-color: white;
     border-radius: 20px;
-    margin-bottom: -160px;
+  
   }
   .cardsHebergement {
     width: 90%;
