@@ -219,13 +219,14 @@ form#formRecherche {
   height: 24px;
   margin-right: 10px;
 }
-
 .info {
   margin-bottom: 20px;
   padding-left: 59px;
   display: flex;
 }
-
+.info p {
+  padding-top: 7px;
+}
 .sectionPrincipale {
   display: flex;
   flex-direction: column;
@@ -685,14 +686,14 @@ section#containerActivitesMarseille {
     .rechercher {
       display: none;
     }
-    .info i {
-    }
+
     .info {
       margin-bottom: 0px;
+      padding-right: 0px;
     }
     #loupe {
       display: flex;
-    
+
       justify-content: center;
       color: white;
       background: #0065fc;
@@ -848,8 +849,6 @@ section#containerActivitesMarseille {
       max-width: 100%;
       max-height: 190px;
     }
-
-    
 
     .cardsActivitesInfos {
       height: 56px;
