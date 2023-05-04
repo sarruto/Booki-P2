@@ -108,6 +108,7 @@ form#formRecherche {
   border-radius: 15px 0px 0px 15px;
   justify-content: center;
   align-items: center;
+  color: black;
 }
 
 .ville {
@@ -663,6 +664,7 @@ section#containerActivitesMarseille {
 
     .ville {
       text-align: center;
+      width: 100%;
     }
     .ville ::placeholder {
       width: 195px;
@@ -690,7 +692,7 @@ section#containerActivitesMarseille {
     }
     #loupe {
       display: flex;
-      padding: 15px 16px;
+    
       justify-content: center;
       color: white;
       background: #0065fc;
