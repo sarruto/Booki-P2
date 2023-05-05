@@ -638,14 +638,13 @@ section#containerActivitesMarseille {
       width: 50%;
       text-align: center;
       padding-bottom: 29.09px;
-
+      padding-bottom: 40px;
       padding: 48px 0px 0px 0px;
     }
 
     .listeNav:hover {
       border-bottom: blue solid 3px;
       border-top: none;
-      padding-bottom: 40px;
     }
 
     h1 {
